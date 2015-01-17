@@ -440,7 +440,6 @@ dir
 (with-current-buffer outbuf
 (progn
 (pop-to-buffer outbuf)
-(shrink-window 5)
 (insert ascope-separator-line "\n")
 (insert "Search complete.")
 (if ascope-first-match
